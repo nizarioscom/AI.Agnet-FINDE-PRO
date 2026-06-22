@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Background rounded square -->
+  <rect width="64" height="64" rx="14" fill="#2563EB"/>
+  <!-- Glow effect -->
+  <rect width="64" height="64" rx="14" fill="url(#glow)" opacity="0.4"/>
+  <!-- Robot/AI icon - stylized "A" with circuit node -->
+  <!-- Diamond shape (rotated square) -->
+  <rect x="20" y="20" width="24" height="24" rx="4" transform="rotate(45 32 32)" fill="white" opacity="0.15"/>
+  <!-- Inner white diamond border -->
+  <rect x="22" y="22" width="20" height="20" rx="3" transform="rotate(45 32 32)" fill="none" stroke="white" stroke-width="2" opacity="0.6"/>
+  <!-- Center dot -->
+  <circle cx="32" cy="32" r="4" fill="white"/>
+  <!-- Corner nodes (circuit style) -->
+  <circle cx="32" cy="14" r="2.5" fill="#93C5FD"/>
+  <circle cx="50" cy="32" r="2.5" fill="#93C5FD"/>
+  <circle cx="32" cy="50" r="2.5" fill="#93C5FD"/>
+  <circle cx="14" cy="32" r="2.5" fill="#93C5FD"/>
+  <!-- Lines from center to nodes -->
+  <line x1="32" y1="28" x2="32" y2="16.5" stroke="#93C5FD" stroke-width="1.5" opacity="0.7"/>
+  <line x1="36" y1="32" x2="47.5" y2="32" stroke="#93C5FD" stroke-width="1.5" opacity="0.7"/>
+  <line x1="32" y1="36" x2="32" y2="47.5" stroke="#93C5FD" stroke-width="1.5" opacity="0.7"/>
+  <line x1="28" y1="32" x2="16.5" y2="32" stroke="#93C5FD" stroke-width="1.5" opacity="0.7"/>
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
+    </radialGradient>
+  </defs>
+</svg>
